@@ -14,6 +14,9 @@
 #root {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -24,7 +27,7 @@ body {
 }
 body .registrationForm {
   max-width: 1440px;
-  border: 2px solid red;
+  border: 1px solid red;
   border-radius: 15px;
   display: flex;
 }
@@ -40,15 +43,15 @@ body .registrationForm .leftSide {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 15px 0 0 15px;
+  border-radius: 14px 0 0 14px;
 }
 body .registrationForm .leftSide .logoImg {
-  width: 220px;
-  margin: 30px 40px;
+  width: 32%;
+  margin: 30px 40px 0 30px;
 }
 body .registrationForm .leftSide .Illustration {
   width: auto;
-  margin: 35px 70px;
+  margin: 35px 50px;
 }
 body .registrationForm .leftSide .textContainer {
   width: auto;
@@ -59,9 +62,9 @@ body .registrationForm .leftSide .textContainer {
   margin-bottom: 40px;
 }
 body .registrationForm .leftSide .textContainer h2 {
-  width: 220px;
+  max-width: 250px;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 body .registrationForm .rightSide {

@@ -1,7 +1,7 @@
 import React from 'react';
 import illustration from '../assets/img/illustration.svg';
 import logoImg from '../assets/img/logo.svg';
-import Form from '../Components/Form';
+import Form from '../Components/Form/Form';
 import '../styles/style.css';
 
 function RegistrationForm() {
