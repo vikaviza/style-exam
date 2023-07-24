@@ -39,6 +39,7 @@ body .registrationForm {
 body .registrationForm .leftSide {
   width: 50%;
   height: auto;
+  padding: 60px;
   background: var(--bg-primary);
   display: flex;
   flex-direction: column;
@@ -69,4 +70,100 @@ body .registrationForm .leftSide .textContainer h2 {
 }
 body .registrationForm .rightSide {
   width: 50%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .registrationForm .rightSide .formHeader a {
+  text-decoration: none;
+  color: var(--bg-primary);
+}
+body .registrationForm .rightSide .socialButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+body .registrationForm .rightSide .socialButtonsContainer :hover {
+  cursor: pointer;
+}
+body .registrationForm .rightSide .socialButtonsContainer .gmail {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 10px;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  background: #fff;
+  border: 2px solid lightgrey;
+  box-shadow: 1px 1px 5px 1px lightgrey;
+  border-radius: 5px;
+}
+body .registrationForm .rightSide .socialButtonsContainer .gmail .icons {
+  height: 21px;
+  width: 25px;
+}
+body .registrationForm .rightSide .socialButtonsContainer .facebook {
+  background-color: #4f70b5;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 10px;
+  gap: 5px;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+body .registrationForm .rightSide .socialButtonsContainer .facebook .icons {
+  height: 21px;
+  width: 25px;
+  color: #fff;
+}
+body .registrationForm .rightSide h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+body .registrationForm .rightSide .regInput .InpSection {
+  width: auto;
+  border: 2px solid lightgrey;
+  box-shadow: 1px 1px 5px 1px lightgrey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+body .registrationForm .rightSide .regInput .InpSection .inpIcons {
+  height: 15px;
+  width: 15px;
+}
+body .registrationForm .rightSide .regInput .InpSection input {
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+  font-size: 18px;
+}
+body .registrationForm .rightSide .regInput .InpSection input:focus {
+  outline: none;
+}
+body .registrationForm .rightSide .regInput .focused {
+  border: 2px solid var(--bg-primary);
+}
+body .registrationForm .rightSide #submit {
+  font-size: 25px;
+  padding: 5px;
+  color: #fff;
+  background: var(--bg-primary);
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
