@@ -17,11 +17,13 @@ function Form() {
                 <a href="/">Log In</a>
             </div>
             
-            <div className="socialButtons">
+            <div className="socialButtonsContainer">
                 <Button
+                    className={'gmail'}
                     socialIcon={Gmail} 
                     text={'sign up'}/>
                 <Button
+                    className={'facebook'}
                     socialIcon={Facebook} 
                     text={'sign up'}/>
             </div>
@@ -29,19 +31,21 @@ function Form() {
             <h2>Or</h2>
 
             <Input
-                className={'focused'}
+                
                 label={'Name'}
                 icon={Person}
                 type={'text'}
                 placeholder={'Joy Shaheb'}
             />
             <Input
+                
                 label={'Email'}
                 icon={Email}
                 type={'email'}
                 placeholder={'abc@gmail.com'}
             />
             <Input
+                
                 label={'Password'}
                 icon={Password}
                 type={'password'}
