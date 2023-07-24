@@ -75,6 +75,9 @@ body .registrationForm .rightSide {
   flex-direction: column;
   justify-content: space-between;
 }
+body .registrationForm .rightSide .formHeader h1 {
+  font-weight: 500;
+}
 body .registrationForm .rightSide .formHeader a {
   text-decoration: none;
   color: var(--bg-primary);
