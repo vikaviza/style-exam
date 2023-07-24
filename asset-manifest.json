@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/style-exam/static/css/main.5f90279e.css",
+    "main.js": "/style-exam/static/js/main.3cd9dabd.js",
+    "static/js/787.73068b4e.chunk.js": "/style-exam/static/js/787.73068b4e.chunk.js",
+    "static/media/illustration.svg": "/style-exam/static/media/illustration.cbc77ab58e645a6d0c1f28d98ba80e32.svg",
+    "static/media/logo.svg": "/style-exam/static/media/logo.5eadb3fbba09c08ef1624607ded0f835.svg",
+    "static/media/google.svg": "/style-exam/static/media/google.9a7800d06783d80a1c12249a8ca58e9d.svg",
+    "index.html": "/style-exam/index.html",
+    "static/media/facebook.svg": "/style-exam/static/media/facebook.adadf645702e85d63f6b5ebc1d3b91d0.svg",
+    "static/media/envelope-solid.svg": "/style-exam/static/media/envelope-solid.6345f82ededa4dc800949734956dc764.svg",
+    "static/media/lock-solid.svg": "/style-exam/static/media/lock-solid.458a297c54567e26784f7145cba0e06e.svg",
+    "static/media/user-solid.svg": "/style-exam/static/media/user-solid.25c7a2c4478e96f8be7eddc9f7c01f5b.svg",
+    "main.5f90279e.css.map": "/style-exam/static/css/main.5f90279e.css.map",
+    "main.3cd9dabd.js.map": "/style-exam/static/js/main.3cd9dabd.js.map",
+    "787.73068b4e.chunk.js.map": "/style-exam/static/js/787.73068b4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f90279e.css",
+    "static/js/main.3cd9dabd.js"
+  ]
+}
