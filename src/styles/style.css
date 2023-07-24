@@ -11,39 +11,59 @@
   --fb-color: #4f70b5;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  padding: 15px 20px;
+  display: block;
+  width: auto;
+  padding-top: 50px;
 }
-body main {
-  width: 1440px;
+body .registrationForm {
+  max-width: 1440px;
   border: 2px solid red;
   border-radius: 15px;
+  display: flex;
 }
-body main .leftSide {
+@media only screen and (min-width: 1280px) {
+  body .registrationForm {
+    width: 1440px;
+  }
+}
+body .registrationForm .leftSide {
   width: 50%;
+  height: auto;
   background: var(--bg-primary);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   border-radius: 15px 0 0 15px;
 }
-body main .leftSide .logoImg {
+body .registrationForm .leftSide .logoImg {
   width: 220px;
   margin: 30px 40px;
 }
-body main .leftSide .Illustration {
+body .registrationForm .leftSide .Illustration {
+  width: auto;
   margin: 35px 70px;
 }
-body main .leftSide .textContainer {
+body .registrationForm .leftSide .textContainer {
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-bottom: 40px;
 }
-body main .leftSide .textContainer p {
-  width: 215px;
+body .registrationForm .leftSide .textContainer h2 {
+  width: 220px;
   color: #fff;
   font-size: 18px;
+  font-weight: 500;
+}
+body .registrationForm .rightSide {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
